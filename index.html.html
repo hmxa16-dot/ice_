@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler's Paradise</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: url('https://source.unsplash.com/1600x600/?travel,nature') no-repeat center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 50px;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4a261;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            width: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #f4a261;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #e76f51;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Traveler's Paradise</h1>
+    <p>Explore the world with us</p>
+    <button onclick="alert('Start your journey today!')">Get Started</button>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Popular Destinations</h2>
+    <div class="destinations">
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?mountains" alt="Mountains">
+            <h3>Mountains</h3>
+            <p>Experience the beauty of nature.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?beach" alt="Beach">
+            <h3>Beaches</h3>
+            <p>Relax by the sea and enjoy sunsets.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?city" alt="City">
+            <h3>Cities</h3>
+            <p>Discover vibrant city life.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>We help travelers find the best destinations and experiences around the globe.</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: info@travelersparadise.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Traveler's Paradise | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
